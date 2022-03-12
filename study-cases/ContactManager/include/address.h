@@ -1,15 +1,24 @@
 #include <string>
+#include <iostream>
 using namespace std;
 
 #ifndef ADDRESS_H
 #define ADDRESS_H
 
+
 class address
 {
     public:
+        address();
         address(string,string,string);
-        ~address();
-        //add get and set and other function
+        virtual ~address();
+
+        void setAddress(string);
+        void setType(string);
+        void setDescription(string);
+
+        bool isMatched(string) const;
+
         void print() const;
     private:
         string m_address;
