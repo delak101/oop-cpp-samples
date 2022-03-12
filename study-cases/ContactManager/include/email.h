@@ -1,6 +1,6 @@
 #include <string>
+#include <iostream>
 using namespace std;
-
 #ifndef EMAIL_H
 #define EMAIL_H
 
@@ -8,9 +8,16 @@ using namespace std;
 class email
 {
     public:
+        email();
         email(string,string,string);
-        ~email();
-        //add get and set and other function
+        virtual ~email();
+
+        void setEmail(string);
+        void setType(string);
+        void setDescription(string);
+
+        bool isMatched(string) const;
+
         void print() const;
     private:
         string m_email;
