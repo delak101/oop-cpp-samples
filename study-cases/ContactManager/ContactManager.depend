@@ -37,3 +37,49 @@
 1646517411 source:k:\workspace\github\oop-cpp-samples\study-cases\contactmanager\src\contacts.cpp
 	"contacts.h"
 
+1647112402 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\main.cpp
+	<iostream>
+	"contacts.h"
+
+1647115405 c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\include\contacts.h
+	"user.h"
+	<string>
+
+1647107693 c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\include\user.h
+	<ctime>
+	<string>
+	<iostream>
+	"phone.h"
+	"email.h"
+	"address.h"
+
+1647113935 c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\include\phone.h
+	<string>
+	<iostream>
+
+1647113935 c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\include\email.h
+	<string>
+	<iostream>
+
+1647113936 c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\include\address.h
+	<string>
+	<iostream>
+
+1647115099 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\src\address.cpp
+	"address.h"
+	<iostream>
+
+1647115436 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\src\contacts.cpp
+	"contacts.h"
+
+1647115525 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\src\email.cpp
+	"email.h"
+	<iostream>
+
+1647114972 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\src\phone.cpp
+	"phone.h"
+	<iostream>
+
+1647115608 source:c:\users\delak\documents\github\oop-cpp-samples\study-cases\contactmanager\src\user.cpp
+	"user.h"
+
