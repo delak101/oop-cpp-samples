@@ -1,5 +1,6 @@
 #include "user.h"
 #include <string>
+
 using namespace std;
 
 #ifndef CONTACTS_H
@@ -10,10 +11,10 @@ class contacts
 {
     public:
         contacts(int);
-        ~contacts();
+        virtual~contacts();
         void addNewUser();
-        void delUser();
-        void editUser();
+        void delUser(int);
+        void editUser(int);
         void print() const;
         void findAll(string) const;
     private:
